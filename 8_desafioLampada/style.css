@@ -12,12 +12,15 @@ header {
 }
 
 section {
-    background-color: rgb(239,235,228);
-    color: black;
+    background-color: rgb(239,235,228, 0.8);
     padding: 10px;
     border-radius: 20px;
     width: 50%;
     margin: auto;
+}
+
+#conserta {
+    margin-top: 10px;
 }
 
 .botao{
@@ -26,5 +29,7 @@ section {
     border: none;
     width: 120px;
     height: 25px;
-    border-radius: 10px;
+    border-radius: 25px;
+    margin: 12px;
+    box-shadow: 5px 5px 5px black;
 }
